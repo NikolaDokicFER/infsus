@@ -14,7 +14,7 @@ COPY src ./src
 RUN ./gradlew build
 
 # Copy the compiled JAR file to the container
-COPY build/libs/your-app-name.jar app.jar
+COPY build/libs/VGR-0.0.1-SNAPSHOT.jar app.jar
 
 # Set the entry point for the container
 ENTRYPOINT ["java", "-jar", "app.jar"]
