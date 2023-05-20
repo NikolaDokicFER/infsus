@@ -1,5 +1,5 @@
 FROM adoptopenjdk/openjdk11:alpine-slim
-ADD build/libs/book-exchange-service-0.0.1-SNAPSHOT.jar app.jar
+ADD build/libs/VGR-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java", "-jar", "app.jar"]# Use an official OpenJDK 11 Alpine-based image as the base image
 FROM adoptopenjdk/openjdk11:alpine-slim
 
