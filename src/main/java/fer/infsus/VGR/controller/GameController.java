@@ -15,7 +15,6 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("api/games/")
-@CrossOrigin("*")
 public class GameController {
     private final GameRepo gameRepo;
     private final ReviewRepo reviewRepo;

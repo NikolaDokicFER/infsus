@@ -15,7 +15,6 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("api/platform/")
-@CrossOrigin("*")
 public class PlatformController {
     private final PlatformRepo platformRepo;
     private final GameRepo gameRepo;

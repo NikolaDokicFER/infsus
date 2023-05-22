@@ -17,7 +17,6 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("api/genre/")
-@CrossOrigin("*")
 public class GenreController {
     private final GenreRepo genreRepo;
     private final GameRepo gameRepo;
